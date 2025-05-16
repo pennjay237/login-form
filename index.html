@@ -9,6 +9,23 @@
 </head>
 
 <body>
+  <div class="auth-container">
+    <h2>Login</h2>
+    <form id="loginForm" novalidate>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+        <div class="error" id="emailError"></div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+        <div class="error" id="passwordError"></div>
+      </div>
+
+      <button type="submit">Sign In</button>
+    </form>
+  </div>
 </body>
 
 <script src="./script/script.js"></script>
